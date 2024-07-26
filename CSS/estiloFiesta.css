@@ -1,6 +1,6 @@
 @font-face {
     font-family: Just;
-    src: url("fuente/JustMeAgainDownHere-Regular.ttf");
+    src: url("../fuentes/JustMeAgainDownHere-Regular.ttf");
 }
 
 *{
@@ -87,11 +87,11 @@ main h3{
 
 main img{
    
-    width: 150px; 
-    height: 150px; 
+    width: 200px; 
+    height: 200px; 
     margin-top: 5px;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 40px;
+    margin-right: 40px;
     border-radius: 55px;
 }
 main img:hover{
@@ -99,14 +99,14 @@ main img:hover{
    
 }
 
-.componentef{
+.componentef {
     grid-column: 3/4;
     background: green;
     margin: 10px;;
     text-align: end;
 }
 
-.elementof{
+.elementof a{
     position: absolute;
     bottom: 20px;
     right: 30px;
@@ -131,4 +131,3 @@ main img:hover{
     height: 100%;
     object-fit: cover;
 }
-
