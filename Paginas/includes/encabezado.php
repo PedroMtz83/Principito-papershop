@@ -8,6 +8,8 @@
     <title>Principito</title>
     <link rel="stylesheet" href="..//CSS/tarjeta.css">
     <link rel="stylesheet" href="..//CSS/encabezado-pie.css">
+
+    
 </head>
 <body>
     <header class="componente">
@@ -21,4 +23,4 @@
             <img src="../Imagenes/carrito.png" alt="carrito">
         </div>
     </header>
-    <main class="componentemain"></main>
+    <main class="componentemain">

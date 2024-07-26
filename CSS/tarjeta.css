@@ -1,5 +1,15 @@
 
 
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,350px);
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 25px;
+    margin: 0;
+}
+
 .producto-tarjeta{
     background: #ece5ce;
     border: 5px solid white;
@@ -25,7 +35,6 @@
     height: 150px;
     object-fit: cover;
 }
-
 .producto-tarjeta .descripcion{
     font-family: "Balsamiq Sans", sans-serif;
     text-align: justify;
@@ -33,40 +42,15 @@
 .producto-tarjeta .nombre, .producto-tarjeta .precio, 
 .producto-tarjeta .imagen, .producto-tarjeta .descripcion{
     margin-bottom: 1rem;
-
-
 }
 .max{
     width: 100%;
 }
 
-
-
 .componentemain{
-    grid-column: 2/4;
-    display: flex; 
-    flex-direction: row; 
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-main{
-    margin-top: 10px;
-    text-align: center;
-    font-family: just;
-    font-size: 1.5rem;
+    grid-column: 1/4;
+    grid-row: 2/3;
 }
 
-main img{
-   
-    width: 150px; 
-    height: 150px; 
-    margin-top: 5px;
-    margin-left: 40px;
-    margin-right: 40px;
-    border-radius: 55px;
-}
-main img:hover{
-    border: 5px solid gray;
-   
-}
+
+
