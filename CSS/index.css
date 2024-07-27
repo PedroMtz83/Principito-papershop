@@ -116,6 +116,55 @@ main img:hover{
    
 }
 
+/*-----------botones------------*/
+.boton {
+    background: #E08E79;
+    font-family: "Montserrat Alternates", serif;
+    font-size: 1.2rem;
+    color: white;
+    display: block;    
+    padding: 16px 0 16px 0;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.boton:hover {
+    background: #42929D;
+}
+a.boton{
+    text-decoration: none;
+    text-align: center;
+}
+
+/*---------fin de botones-------*/
+
+/*----------index---------------*/
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    border-radius: 15%;
+    width: 150px;
+    height: 300px;
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/*---------Fin index----------------*/
+
+/*-----piepagina---------------------------------*/
 .componentef{
     grid-column: 3/4;
     background: green;
@@ -150,50 +199,3 @@ main img:hover{
     object-fit: cover;
 }
 /*------------------------------*/
-/*-----------botones------------*/
-.boton {
-    background: #E08E79;
-    font-family: "Montserrat Alternates", serif;
-    font-size: 1.2rem;
-    color: white;
-    display: block;    
-    padding: 16px 0 16px 0;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s;
-    width: 100%;
-}
-
-.boton:hover {
-    background: #42929D;
-}
-a.boton{
-    text-decoration: none;
-    text-align: center;
-}
-
-/*---------fin de botones-------*/
-/*----------index---------------*/
-.container {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.item {
-    text-align: center;
-}
-
-.item img {
-    border-radius: 15%;
-    width: 150px;
-    height: 300px;
-}
-
-.item p {
-    margin-top: 10px;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-/*---------Fin index----------------*/
-
