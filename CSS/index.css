@@ -78,6 +78,23 @@ main{
     align-items: center;
     flex-wrap: wrap;
 }
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,350px);
+    justify-content: space-around;
+    row-gap: 30px;
+    margin: 10px;
+}
+
+.elemento{
+    background: #ece5ce;
+    border: 5px solid white;
+    padding: 10px;
+    transition: box-shadow 0.5s;
+}
+
+
 main h3{
     margin-top: 10px;
     text-align: center;
@@ -132,6 +149,29 @@ main img:hover{
     object-fit: cover;
 }
 /*------------------------------*/
+/*-----------botones------------*/
+.boton {
+    background: #E08E79;
+    font-family: "Montserrat Alternates", serif;
+    font-size: 1.2rem;
+    color: white;
+    display: block;    
+    padding: 16px 0 16px 0;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.boton:hover {
+    background: #42929D;
+}
+a.boton{
+    text-decoration: none;
+    text-align: center;
+}
+
+/*---------fin de botones-------*/
 /*----------index---------------*/
 .container {
     display: flex;
