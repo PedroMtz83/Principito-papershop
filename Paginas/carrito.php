@@ -1,3 +1,7 @@
+<?php
+include ('items/encabezado-carrito.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito</title>
     <link rel="stylesheet" href="../CSS/carrito.css">
+    <script src="../scripts/carrito.js"></script>
 </head>
 
 <body>
@@ -33,3 +38,6 @@
 </body>
 
 </html>
+<?php
+include ('items/pie-carrito.php');
+?>
