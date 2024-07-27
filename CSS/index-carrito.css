@@ -20,45 +20,10 @@ body {
     
 }
 /**************************encabezado****------------------------*/
-header{
-    background: #28527A;
-    grid-column: 1/4;
-    grid-row: 1/2;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-img{
-    cursor: pointer;
-}
-
-.logo img{
-    width: 8rem;
-    margin-left: 3rem;
-    
-}
-
-header h1 {
-    color: #FDE14A;
-    margin: 0;
-    font-size: 2.5em;
-    display: flex;
-    margin-top: 1rem;
-    font-family: just;
-    font-size: 4rem;
-}
-
-.carrito img{
-    width: 50px;
-    margin-top: 2rem;
-    margin-right: 2rem;
-}
-
 .saturno {
     width: 25%;
     position: fixed;
-    top: 8%;
+    top: 0.1%;
     right: 0;
     z-index: -1;
 }
@@ -69,7 +34,7 @@ header h1 {
     object-fit: cover;
 }
 /*--------------------------------------------------*/
-
+/*
 main{
     grid-column: 2/4;
     display: flex; 
@@ -103,7 +68,6 @@ main h3{
 }
 
 main img{
-   
     width: 150px; 
     height: 150px; 
     margin-top: 5px;
@@ -113,10 +77,11 @@ main img{
 }
 main img:hover{
     border: 5px solid gray;
-   
 }
+*/
 
 /*-----------botones------------*/
+/*
 .boton {
     background: #E08E79;
     font-family: "Montserrat Alternates", serif;
@@ -141,6 +106,7 @@ a.boton{
 /*---------fin de botones-------*/
 
 /*----------index---------------*/
+/*
 .container {
     display: flex;
     justify-content: space-around;
@@ -165,6 +131,7 @@ a.boton{
 /*---------Fin index----------------*/
 
 /*-----piepagina---------------------------------*/
+/*
 .componentef{
     grid-column: 3/4;
     background: green;
@@ -183,15 +150,14 @@ a.boton{
     text-align: center;
     font-size: 1.5rem;
 }
-
+*/
 .luna {
     width: 25%;
     position: fixed;
-    bottom: 0;
+    bottom: 0.1%;
     left: 0;
     z-index: -1;
 }
-  
 
 .luna img {
     width: 100%;
