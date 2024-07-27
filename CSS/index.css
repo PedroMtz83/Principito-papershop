@@ -102,10 +102,10 @@ main{
 /*------------cs para ver los producto tarjetas --------------------*/
 /*fiesta - utiles- libreria- papeleria*/
 .contenedor-t {
-    display: flex;              /* Hace que los hijos se alineen en fila */
-    flex-wrap: wrap;            /* Permite que las tarjetas se ajusten a la siguiente línea si no caben en una sola */
-    gap: 10px;                  /* Espacio entre las tarjetas */
-    justify-content: center;    /* Alinea las tarjetas en el centro del contenedor */
+    display: flex;
+    flex-wrap: wrap;           
+    gap: 10px;                  
+    justify-content: center;    
 }
 
 .producto-tarjeta {
@@ -113,12 +113,12 @@ main{
     border: 5px solid white;
     padding: 10px;
     transition: box-shadow 0.5s;
-    width: 250px;              /* Ancho fijo para las tarjetas */
-    box-sizing: border-box;    /* Incluye el padding y el borde en el tamaño total */
+    width: 250px;             
+    box-sizing: border-box;   
     display: flex;
-    flex-direction: column;    /* Asegura que el contenido interno de las tarjetas se alinee en columna */
-    align-items: center;       /* Centra el contenido horizontalmente */
-    text-align: center;        /* Centra el texto */
+    flex-direction: column;   
+    align-items: center;     
+    text-align: center;        
 }
 
 
