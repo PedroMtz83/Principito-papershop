@@ -1,0 +1,250 @@
+@font-face {
+    font-family: Just;
+    src: url("../fuentes/JustMeAgainDownHere-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #a6e3e9;
+    display: grid;
+    height: 100vh;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+/**************************encabezado****------------------------*/
+header {
+    background: #28527a;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+img {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 8rem;
+    margin-left: 3rem;
+}
+
+header h1 {
+    color: #fde14a;
+    margin: 0;
+    font-size: 2.5em;
+    display: flex;
+    margin-top: 1rem;
+    font-family: just;
+    font-size: 4rem;
+}
+
+.login {
+    display: flex;
+    margin-right: none;
+    margin-top: 3.5rem;
+    text-decoration: none;
+}
+
+.login a {
+    color: #fde14a;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.login a:last-child {
+    margin-right: 0;
+}
+
+.carrito-boton {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    position: relative;
+    right: 2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.carrito-boton:hover{
+    background: #FDE14A;
+    border-radius: 10px;
+}
+
+.saturno {
+    width: 40%;
+    position: fixed;
+    top: 0%;
+    right: 0;
+    z-index: -1;
+}
+
+.saturno img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*-------------------cs de  index-------------------------------*/
+main {
+    grid-column: 2/4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*------------cs para ver los producto tarjetas --------------------*/
+/*fiesta - utiles- libreria- papeleria*/
+.contenedor-t {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.producto-tarjeta {
+    background: #ece5ce;
+    border: 5px solid white;
+    padding: 10px;
+    transition: box-shadow 0.5s;
+    width: 250px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.producto-tarjeta:hover {
+    box-shadow: 0 5px 10px gray;
+}
+
+.producto-tarjeta .nombre {
+    font-family: "Patua One", serif;
+    color: #42929d;
+}
+
+.producto-tarjeta .precio {
+    font-family: "Patua One", serif;
+}
+
+.producto-tarjeta .imagen {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.producto-tarjeta .nombre,
+.producto-tarjeta .precio,
+.producto-tarjeta .imagen {
+    margin-bottom: 1rem;
+}
+
+/*----------------------------------------------------------*/
+/*-----------botones------------*/
+.boton {
+    background: #e08e79;
+    font-family: "Montserrat Alternates", serif;
+    font-size: 1.2rem;
+    color: white;
+    display: block;
+    padding: 16px 0 16px 0;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.boton:hover {
+    background: #42929d;
+}
+
+a.boton {
+    text-decoration: none;
+    text-align: center;
+}
+
+/*---------fin de botones-------*/
+
+/*----------index---------------*/
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    border-radius: 15%;
+    width: 150px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 55px;
+}
+
+.item img:hover {
+    border: 5px solid gray;
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*---------Fin index----------------*/
+
+/*-----piepagina---------------------------------*/
+.componentef {
+    grid-column: 3/4;
+    background: green;
+    margin: 10px;
+    text-align: end;
+}
+
+.componentef .contacto {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: #fde14a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.luna {
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.luna img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*------------------------------*/
